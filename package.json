@@ -1,0 +1,27 @@
+{
+  "name": "number-translate-to-korean",
+  "version": "1.0.2",
+  "description": "숫자를 한글로 변환합니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "korean-numbers",
+    "number-translate-to-korean",
+    "숫자",
+    "한글",
+    "number",
+    "korean",
+    "korea"
+  ],
+  "bugs": {
+    "url": "https://github.com/rkdqudtjs1/number-translate-to-korean/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rkdqudtjs1/number-translate-to-korean.git"
+  },
+  "author": "rkdqudtjs1@naver.com",
+  "license": "ISC"
+}
