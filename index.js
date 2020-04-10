@@ -11,7 +11,8 @@ const koreanNumbers = value => {
 
   for (let i = 0; i < unit1Size; i++) {
     const number = splitReverse.splice(0, 4)
-    const result = number.map((num, idx) => num != 0 ? numData[num] + unit2[idx] : '').reverse().join('') + unit1[i]
+    let result = number.map((num, idx) => num != 0 ? numData[num] + unit2[idx] : '').reverse().join('')
+    if (result) result += unit1[i]
     resultValue.unshift(result)
   }
   return resultValue.join('')
