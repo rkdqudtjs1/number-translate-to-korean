@@ -1,6 +1,6 @@
 {
   "name": "number-translate-to-korean",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "숫자를 한글로 변환합니다.",
   "main": "index.js",
   "scripts": {
